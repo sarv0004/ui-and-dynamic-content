@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="utf-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+		<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
+		<link href="fonts/css/all.css" rel="stylesheet"> <!--load all styles -->
+		<link rel="stylesheet" type="text/css" href="css/styles.css">
+	</head>
+	<body>
+		<div class="wrapper">
+			<div class="col-lg-4 mx-auto form">
+				<div class ="masthead text-center">
+					<i class="fas fa-shopping-cart cart"></i>
+			        <h1>BUY</h1>
+			        <h1>GROCERIES</h1>
+			      	<p>What do you need to buy today?</p>
+				</div>
+				<main class="main">
+					<div class="col widget text-center">
+				      	<div class="form-group">
+							<input type="text" class="form-control" name="item" id="item" placeholder="Your item here...">
+					    </div>
+					    <div class="form-group">
+					    	<button type="submit" class="btn btn-block btn-primary" onclick="addItem()">ADD TO LIST</button>
+					    </div>
+					    <div class="form-group">
+					    	<ul>
+					    		
+					    	</ul>
+					    	<p class="feedback"></p>
+					    </div>
+					    <hr>
+					    <div class="footer">
+					    	<ul class ="social-icons">
+					    		<li><a href="https://www.facebook.com/"><i class="fab fa-facebook-f"></i></a></li>
+					    		<li><a href="https://www.google.com/"><i class="fab fa-google"></i></a></li>
+					    		<li><a href="https://www.twitter.com/"><i class="fab fa-twitter"></i></a></li>
+					    	</ul>
+					    </div>
+				    </div>
+			    </main>
+			</div>
+		</div>
+		<script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"></script>
+		<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"></script>
+		<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
+		<script src="js/script.js"></script>
+	</body>
+</html>
